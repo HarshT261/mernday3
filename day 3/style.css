@@ -1,0 +1,24 @@
+/* button:hover{
+    text-decoration: dashed;
+    text-transform: uppercase;
+    background-color: red;
+    transition-duration: 2s; */
+
+    button{
+   animation-name: button-animation-type-1;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-duration: alternate;
+
+    }
+@keyframes button-animation-type-1{
+    0%{
+        top: 20px;
+        left: 40px;
+    }
+    30%{
+        top: 20px;
+        left: 500px;
+    }
+}
